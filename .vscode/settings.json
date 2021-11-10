@@ -1,0 +1,17 @@
+{
+    "files.exclude": {
+        "package-lock.json": true,
+        "next-env.d.ts": true,
+        "node_modules": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "yarn.lock": true,
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        ".next": true,
+    },
+
+    "css.customData": [".vscode/tailwind.data.json"]
+}

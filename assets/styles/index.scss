@@ -1,6 +1,9 @@
-@tailwind components;
-@tailwind utilities;
+/* purgecss start ignore */
 @tailwind base;
+
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
 

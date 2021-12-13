@@ -11,17 +11,17 @@ export default function comments(req, res) {
 
     const query = gql`
         mutation CreateComment(
-            $name: String!
-            $email: String!
             $comment: String!
+            $email: String!
+            $name: String!
             $slug: String!
         ) {
             createComment(
                 data: {
-                    name: $name
-                    email: $email
-                    comment: $comment
                     post: { connect: { slug: $slug } }
+                    comment: $comment
+                    email: $email
+                    name: $name
                 }
             ) {
                 id

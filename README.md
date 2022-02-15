@@ -1,1 +1,1 @@
-
+# NextJS / GraphCMS Blog
